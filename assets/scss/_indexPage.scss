@@ -1,0 +1,36 @@
+.section-1 {
+  height: 100vh;
+  background-color: #60c1c3;
+  .section-img {
+    position: relative;
+    height: 100%;
+    $images: (
+      'back': 40%,
+      'front': 55%,
+    );
+    @each $class, $top in $images {
+      .img-#{$class} {
+        top: $top;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 60%;
+      }
+    }
+  }
+}
+.section-2,
+.section-3{
+  h3 {
+    &:before {
+      content: '';
+      width: 5px;
+      height: 40px;
+      background: $main-color;
+      display: inline-block;
+      margin-left: 10px;
+      position: relative;
+      top: 10px;
+    }
+  }
+}
