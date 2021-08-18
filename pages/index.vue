@@ -79,31 +79,4 @@ export default {
 }
 </script>
 <style scoped lang="scss">
-.content {
-  padding: 100px 40px;
-}
-.box {
-  box-shadow: 0 3px 36px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 25px;
-  .backCard {
-    width: 100%;
-    height: 180px;
-    position: relative;
-    .svgCard {
-      height: 230px;
-      width: 100%;
-      background-image: radial-gradient(#f5fff4, #63c257);
-      position: absolute;
-      border-radius: 15px;
-      padding: 30px;
-      top: -80px;
-    }
-  }
-  .main-btn {
-    border-radius: 15px;
-  }
-  svg {
-    height: 100%;
-  }
-}
 </style>

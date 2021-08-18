@@ -1,0 +1,15 @@
+.about {
+  .card {
+    padding: 0 50px;
+    border: none;
+    text-align: center;
+    .card-img-top {
+        width: auto;
+        margin: 0 auto;
+        height: 220px;
+      }
+      .card-body{
+          padding: 0 50px;
+      }
+  }
+}

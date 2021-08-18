@@ -12,7 +12,7 @@
             <nuxt-link :to="'/'">الرئيسية</nuxt-link>
           </b-nav-item>
           <b-nav-item>
-            <nuxt-link :to="'/'">عن تطبيقاتي</nuxt-link>
+            <nuxt-link :to="'/aboutApps'">عن تطبيقاتي</nuxt-link>
           </b-nav-item>
           <b-nav-form>
             <div class="search-box mx-3">

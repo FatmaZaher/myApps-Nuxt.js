@@ -7,7 +7,8 @@
   .card {
     padding: 30px 9px;
     border: none;
-    box-shadow: 0px 0px 10px #00000061;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    transition: all ease-in-out 0.2s;
     border-radius: $radius;
     .card-img-top {
       width: auto;
@@ -19,10 +20,11 @@
       text-align: center;
       h4 {
         font-size: 18px;
+        color: $black;
       }
     }
     &:hover{
-        box-shadow: 0px 0px 10px #000000b2;
+        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
     }
   }
 }

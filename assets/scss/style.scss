@@ -1,19 +1,11 @@
-$main-color: #63c257;
-$text-color: #393d48;
-$muted-color: #707070;
-$back-color: #63c2573b;
-$red-color: #e00009;  
-$overlay-color: #00000087;
-$orange-color: #ec6848 ;
-
-@import 'header';
-@import 'page';
-@import 'tableList';
-@import 'modal';
-@import 'tabs';
-@import 'profile';
-@import 'nuxtLink';
-@import 'form';
-@import 'auth';
-@import 'menu-icons';
-@import 'button'
+$white :#fff;
+$black :#000;
+$radius : 20px;
+$main-color: #60c1c3;
+.paddingPage{
+    padding: 70px 0;
+}
+@import 'card';
+@import 'indexPage';
+@import 'nav';
+@import 'aboutPage';
