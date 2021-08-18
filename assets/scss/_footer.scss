@@ -1,0 +1,50 @@
+.footer {
+  background-color: $black;
+  padding: 50px 0;
+  color: $white;
+  font-size: 13px;
+  h5 {
+    height: 50px;
+  }
+  img {
+    height: 50px;
+  }
+  a {
+    text-decoration: none !important;
+    color: $white;
+    transition: all ease-in-out 0.2s;
+    &:hover {
+      color: #c7c7c7;
+    }
+  }
+  .download {
+    padding: 15px 0;
+    background-color: $white;
+    color: $main-color;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    img {
+      height: 30px;
+    }
+    a {
+      color: $main-color;
+      &:hover {
+        color: #c7c7c7;
+      }
+    }
+  }
+  ul {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 10px;
+    padding: 0;
+    li {
+      list-style: none;
+      margin-bottom: 10px;
+    }
+  }
+}
