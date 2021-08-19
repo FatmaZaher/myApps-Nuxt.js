@@ -1,7 +1,7 @@
 <template>
   <div class="paddingPage about">
     <b-container>
-      <h1 class="text-center mb-5">عن تطبيقاتي</h1>
+      <h1 class="mb-5">عن تطبيقاتي</h1>
       <b-card
         :img-src="require('~/assets/images/Mask Group.svg')"
         img-alt="Image"

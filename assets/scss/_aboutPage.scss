@@ -1,15 +1,36 @@
 .about {
+  text-align: center;
   .card {
     padding: 0 50px;
     border: none;
-    text-align: center;
     .card-img-top {
-        width: auto;
-        margin: 0 auto;
-        height: 220px;
+      width: auto;
+      margin: 0 auto;
+      height: 220px;
+    }
+    .card-body {
+      padding: 0 50px;
+    }
+    a {
+      text-decoration: none !important;
+      color: #fff !important;
+      background-color: black;
+      text-align: center;
+      margin: 0 10px;
+      padding: 5px 20px;
+      border-radius: 5px;
+      display: inline-block;
+      img,
+      i {
+        margin-left: 10px;
       }
-      .card-body{
-          padding: 0 50px;
+      img {
+        height: 15px;
+        width: 15px;
       }
+      i {
+        font-size: 17px;
+      }
+    }
   }
 }

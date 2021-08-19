@@ -12,7 +12,7 @@
           lg="3"
           class="serviceCard mb-5"
         >
-          <nuxt-link class="card-link" :to="'/'">
+          <nuxt-link class="card-link" :to="'/aboutApp/' + service.ServiceId">
             <b-card
               :title="service.ServiceName"
               :img-src="service.ServiceURL"
